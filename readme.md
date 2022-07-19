@@ -18,7 +18,7 @@ e fazer com que me conheça através de meus projetos que são apresentado nesse
 ![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/sobre.PNG)
 ![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/sobre-2.PNG)
 ![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/sobre-3.PNG)
-![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/sobre-4.PNG)
+![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/sobre.PNG)
 
 ## Contato
 ![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/contato.PNG)
