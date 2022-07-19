@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/static/contact.css">
+    <link rel="shortcut icon" href="/static/icon.png" type="image/x-icon">
+    <title>Contato | Eduardo A.</title>
+ </head>   
+ <body>
+    <header>
+        <a href="{{url_for('index')}}" class="logo">Eduardo A.</a>
+        <ul>
+            <li> <a href="{{url_for('index')}}" class="active">ínicio</a></li>
+            <li> <a href="{{url_for('about')}}">Sobre</a></li>
+            <li> <a href="{{url_for('project')}}">Projetos</a></li>
+            <li> <a href="{{url_for('contact')}}">Contato</a></li>
+        </ul>
+    </header>
+    <div class="main-register"> 
+        <div class="left-register">
+            <img src="{{ url_for('static', filename='contato.svg') }}" id="contact">
+        <form action="/submit" method="POST">    
+            </div>
+            <div class="right-register" data-aos="flip-left">
+                <div class="card-register">
+                    <h3>Para entrar em contato
+                        preencha os campos requeridos!</h3>
+                    {% if message %}
+                        <p class="message">{{ message | safe}}</p>
+                    {% endif %} 
+                <div class="textfield">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" placeholder="Name.">
+                    </div>
+                    <div class="textfield">
+                        <label for="contato">Celular:</label>
+                        <input type="text" name="contato" placeholder="(xx) 9 xxxx-xxxx">
+                    </div>
+                    <div class="textfield">
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" placeholder="E-mail.">
+                    </div>
+                    <div class="textfiel">
+                        <label for="msg">Mensagem:</label>
+                        <input type="text" name="msg" placeholder="Your message here.">
+                    </div>
+                    <button class="btn-confirmar">Confirmar</button>
+                    </div>
+                </div>   
+            </div> 
+        </form>         
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h3>Eduardo Augusto | Back-end Developer.</h3>
+            <p> All rigths reserved ®.</p>
+            <ul class="socials">
+                <li><a href="https://github.com/eduardoaoc"><i class="bi bi-github"></i></a></li>
+                <li><a href="mailto:edudtk7@gmail.com?subject=Proposta%20de%20trabalho%20%7C%20Job%20offer.&body=Ol%C3%A1%20eu%20sou%20o%20Eduardo.%0D%0A%0D%0APara%20entrar%20em%20contato%2Cbasta%20enviar%20um%20email%20nesse%20endere%C3%A7o%3A%20edudtk7%40gmail.com%0D%0AAberto%20a%20todas%20as%20propostas%2C%20muito%20obrigado!%0D%0A%0D%0A%0D%0A%0D%0A%0D%0AHi%2C%20I'm%20Eduardo.%0D%0A%0D%0ATo%20get%20in%20touch%2Cjust%20send%20an%20email%20to%20that%20address%3A%20edudtk7%40gmail.com%0D%0AOpen%20to%20all%20proposals%2C%20thank%20you%20very%20much!"><i class="bi bi-google"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/eduardo-augusto-41436b233/"><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyrightⒸ 2022. designed by Eduardo A.</p>
+        </div>
+    </footer> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration:1000
+        });
+    </script>  
+ </body>
+</html>
+
+
+
+
+
+
