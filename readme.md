@@ -24,6 +24,12 @@ e fazer com que me conheça através de meus projetos que são apresentado nesse
 ![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/contato.PNG)
 ## Projetos 
 ![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/projetos.PNG)
+## Rodapé  
+![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/all-footer.PNG)
+
+
+
+
 
 # Technology used
 
