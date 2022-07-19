@@ -3,26 +3,34 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/eduardoaoc/portifolio/blob/main/LICENSE) 
 
 # About the Project
+Esse é o meu primeiro portifólio, ele tem alguns efeitos básicos feitos em JAVASCRIPT, além
+do designer feio tem HTML e CSS, também conta com o back-end em PYTHON. Uma forma de aprender
+e fazer com que me conheça através de meus projetos que são apresentado nesse portifólio.
 
 
 # Layout
-## ínicio 
-![Layout App]() 
-## Sobre
-![Layout App]()
-## Contato
-![Layout App]()
-## L
-![Layout App]()
-## Criar/Editar produto - Edit/Create prodduct
-![Layout App]()
+## Página Inicial 
+![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/head.PNG) 
+![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/meio.PNG)
+![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/footer.PNG)
 
+## Sobre mim 
+![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/sobre.PNG)
+![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/sobre-2.PNG)
+![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/sobre-3.PNG)
+![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/sobre-4.PNG)
+
+## Contato
+![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/contato.PNG)
+## Projetos 
+![Layout App](https://github.com/eduardoaoc/portifolio/blob/main/assets/projetos.PNG)
 
 # Technology used
 
 ## Front end
 - HTML
 - CSS
+- JAVASCRIPT
 
 ## Back end
 - Python
@@ -41,7 +49,7 @@ git clone https://github.com/eduardoaoc/portifolio
 # Enter the folder.
 
 # Execute the file.
-app.py
+python app.py
 ```
 
 
