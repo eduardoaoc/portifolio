@@ -1,3 +1,0 @@
-static/car.mp4 filter=lfs diff=lfs merge=lfs -text
-static/fighter.mp4 filter=lfs diff=lfs merge=lfs -text
-static/newslatter.mp4 filter=lfs diff=lfs merge=lfs -text
